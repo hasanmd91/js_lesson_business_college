@@ -1,0 +1,7 @@
+Hint 1: Which array method should you use?
+Hint 2: What kind of operation are you implementing here?
+Hint 3: It's a transformation
+Hint 4: You're transforming an array of strings into an array of numbers
+(the number of items will stay the same)
+Hint 5: Thus you should use the .map(callback) method
+Hint 6: How do you get the number of characters in a string?

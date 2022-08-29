@@ -1,0 +1,5 @@
+Hint 1: Programming is the art of splitting complex problem into smaller ones.
+You can apply this concept to this practice.
+Hint 2: Start by calculating the sum of all the numbers. Once you've got this working, think about how you can
+make it sum only the positive ones.
+Hint 3: You can use an if condition inside the forEach to check if the number is positive.

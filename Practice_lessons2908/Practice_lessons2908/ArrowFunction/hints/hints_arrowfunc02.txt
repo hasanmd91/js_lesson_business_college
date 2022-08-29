@@ -1,0 +1,5 @@
+Hint 1: You don't need to update the function body
+Hint 2: Currently, the function breaks because we can't call undefined.forEach() that's because
+userIds is undefined when we call logUserIds() without any argument
+Hint 3: You can default userIds to an empty array!
+Hint 4: userIds = []

@@ -1,0 +1,4 @@
+Hint 1: Which array method should you use?
+Hint 2: The .find() method because you want to look for searchYear and return it when it's found.
+It also returns undefined when it's not found
+Hint 3: The callback will compare to searchYear

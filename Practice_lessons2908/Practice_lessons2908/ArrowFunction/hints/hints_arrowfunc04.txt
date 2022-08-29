@@ -1,0 +1,5 @@
+Hint 1: Start by creating a variable triple: const triple =
+Hint 2: And then list the parameters (only one here)
+Hint 3: (value)
+Hint 4: Then add the arrow =>
+Hint 5: Then the function body in between curly braces { }

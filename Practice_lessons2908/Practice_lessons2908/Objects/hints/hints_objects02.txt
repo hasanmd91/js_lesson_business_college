@@ -1,0 +1,7 @@
+Hint 1: Add a console.log(city); inside the function to visualize the city object
+Hint 2: How do you get the value?
+Hint 3: city.value
+Hint 4: Copy the string and start by returning it as is
+Hint 5: Then how do you replace X by the city.value?
+Hint 6: You need interpolation
+Hint 7: Convert string to a template string

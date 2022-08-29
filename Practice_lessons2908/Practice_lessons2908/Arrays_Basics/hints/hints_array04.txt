@@ -1,0 +1,2 @@
+Hint 1: You need to push into the apps array just like before
+Hint 2: However app is a variable here rather than a string

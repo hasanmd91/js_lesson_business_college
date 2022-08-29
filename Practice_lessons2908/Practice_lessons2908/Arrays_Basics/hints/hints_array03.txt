@@ -1,0 +1,4 @@
+Hint 1: Based on the tests, this function should return something
+Hint 2: apps.push(...) returns the new length of the array. Check the slides for more details.
+Hint 3: So you should not return the new length of the array but instead the new array
+Hint 4: You need to return the apps array after pushing to it

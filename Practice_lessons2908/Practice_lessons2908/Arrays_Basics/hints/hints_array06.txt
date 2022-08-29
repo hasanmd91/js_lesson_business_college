@@ -1,0 +1,2 @@
+Hint 1: You should use the same strategy as you did with strings
+Hint 2: The last item is located at the count - 1

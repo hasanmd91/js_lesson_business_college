@@ -1,0 +1,7 @@
+Hint 1: When you call sum with both values for a and b it should just sum them (this is already implemented and should not change)
+Hint 2: When you skip the b parameter, its value should default to a number. Which number?
+Hint 3: sum(3) returns 3 and sum(5) returns 5 so the b parameter should default to ...?
+Hint 4: It should default to 0
+Hint 5: Same thing for the a parameter
+Hint 6: Use default parameters
+Hint 7: Your code should not contain if conditions (or ternary)

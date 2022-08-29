@@ -1,0 +1,7 @@
+Hint 1: How do you read the age?
+Hint 2: person.age
+Hint 3: How do you add 1 to it?
+Hint 4: person.age + 1
+Hint 5: But, you need to store that again in person.age or else the person.age won't get updated
+Hint 6: What should that function return?
+Hint 7: It should return the object person.

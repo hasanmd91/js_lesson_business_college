@@ -1,0 +1,5 @@
+Hint 1: You need to loop through the grades with a .forEach
+Hint 2: You will need a variable that holds the value of the sum.
+Hint 3: sum = sum + grade inside the .forEach()
+Hint 4: The variable sum needs to be defined outside the .forEach
+Hint 5: Are you returning in the correct place?

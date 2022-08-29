@@ -1,0 +1,5 @@
+Hint 1: userIds is an array and you need to iterate over it. Which method should you use?
+Hint 2: userIds.forEach(callback)
+Hint 3: Write the callback
+Hint 4: The parameter should be called userId (best practice)
+Hint 5: And finally you need to log it to the console. console.log(userId)

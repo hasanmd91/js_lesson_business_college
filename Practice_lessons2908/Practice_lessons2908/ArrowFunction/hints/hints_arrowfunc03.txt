@@ -1,0 +1,4 @@
+Hint 1: Start by assigning the function to a variable triple
+Hint 2: const triple = function
+Hint 3: Then remove the function keyword
+Hint 4: and then place an arrow after the parameters

@@ -1,0 +1,5 @@
+Hint 1: Similarly to the previous challenge, start by calculating the sum of all numbers
+Hint 2: Then think about the if condition
+Hint 3: You may want to review the Numbers chapter, what we learned.
+Hint 4: Use the remainder operator (%)
+Hint 5: Make sure you're comparing to 0 rather than 1 to make it work with negative numbers (=== or !==?)

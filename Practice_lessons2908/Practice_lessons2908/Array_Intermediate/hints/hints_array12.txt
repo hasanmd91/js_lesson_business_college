@@ -1,0 +1,6 @@
+Hint 1: Which array method should you use?
+Hint 2: Array.filter()
+Hint 3: What will the callback be?
+Hint 4: What will you name the first parameter of the callback? Follow the recommended naming convention
+Hint 5: Don't forget to return inside the .filter() call
+Hint 6: Don't forget to return the result of the .filter()

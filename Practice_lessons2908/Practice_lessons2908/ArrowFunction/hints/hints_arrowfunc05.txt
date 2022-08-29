@@ -1,0 +1,5 @@
+Hint 1: Start by creating a variable sum: const sum =
+Hint 2: And then list the parameters
+Hint 3: (a, b)
+Hint 4: Then add the arrow =>
+Hint 5: Then the function body in between curly braces { }
