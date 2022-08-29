@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getStringSizes such that it returns an array of the number of characters for every string it receives in the strings parameter.
@@ -10,9 +10,12 @@ and the second string is made up of 1 character.
  * @param {string[]} strings
  */
 function getStringSizes(strings) {
-
+  const newArray = [];
+  strings.forEach((ele) => {
+    newArray.push(ele.length);
+  });
+  return newArray;
 }
-
 
 // Sample usage - do not modify
 console.log(getStringSizes(["a", "abc"])); // [1, 3]
