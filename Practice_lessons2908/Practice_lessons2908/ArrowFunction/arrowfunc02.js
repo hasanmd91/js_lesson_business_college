@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Our logUserIds function fails when we call it without any parameter.
@@ -8,8 +8,10 @@ Fix that without using an if condition.
 /**
  * @param {number[]} userIds
  */
-function logUserIds() {
-
+function logUserIds(array = []) {
+  array.forEach((id) => {
+    console.log(id);
+  });
 }
 
 // Sample usage - do not modify

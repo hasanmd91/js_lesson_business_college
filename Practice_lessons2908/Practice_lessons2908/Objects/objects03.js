@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 
@@ -12,13 +12,17 @@ age incremented (add 1 to the existing value).
  * @param {number} person[].age
  */
 function incrementAge(person) {
-
+  return {
+    firstName: person.firstName,
+    lastName: person.lastName,
+    age: person.age + 1,
+  };
 }
 
 // Sample usage - do not modify
 const person = {
-    firstName: "Sam",
-    lastName: "Doe",
-    age: 18
-}
+  firstName: "Sam",
+  lastName: "Doe",
+  age: 18,
+};
 console.log(incrementAge(person)); // {firstName: "Sam", lastName: "Doe", age: 19}
