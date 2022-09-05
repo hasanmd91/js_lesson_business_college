@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the function getUnit such that it returns the unit of temperature measurement used in the text it receives.
@@ -11,9 +11,13 @@ To avoid small typos, make sure to copy the strings (such as Celsius and the deg
 /**
  * @param {string} text
  */
-const getUnit = text => {
-
-}
+const getUnit = (text) => {
+  if (text.includes("C")) {
+    return "Celsius";
+  } else if (text.includes("F")) {
+    return "Fahrenheit";
+  } else return "N/A";
+};
 
 // Sample usage - do not modify
 console.log(getUnit("It is 15°C today")); // Celsius
