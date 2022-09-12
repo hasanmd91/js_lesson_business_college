@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+
+</head>
+<body>
+    <nav id="navbar">
+      <a href="" class="nav-brand">App</a>
+      <ul>
+        <li class="nav-item"><a href="about.html">About us</a></li>
+        <li><a href="" class="nav-item btn btn-default">Register</a></li>
+      </ul>
+    </nav>
+
+    <div class="container" id="main">
+        <p>Learn more about our company.</p><br />
+        <div class="tabs">
+            <div class="nav-tabs">
+                <ul>
+                    <li><button class="tab active" data-content="#about-us">About us</button></li>
+                    <li><button class="tab" data-content="#the-team">The team</button></li>
+                    <li><button class="tab" data-content="#others-say">What others say</button></li>
+                </ul>
+                <div class="border-tabs"></div>
+            </div>
+            <p id="about-us" class="tab-content show">About us content here</p>
+            <p id="the-team" class="tab-content">The team content here</p>
+            <p id="others-say" class="tab-content">What others say content here</p>
+        </div>
+    </div>
+
+    <footer id="footer-wrapper">
+        <a href="about.html" target="_blank">About us</a>
+        <a href="contact.html" target="_blank">Contact us</a>
+    </footer>
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>

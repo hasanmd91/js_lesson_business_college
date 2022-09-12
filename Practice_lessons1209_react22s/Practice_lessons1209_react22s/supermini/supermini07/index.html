@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="nav-brand">Supermini07:Import tasks from CSV</h1>
+    </nav>
+    <main class="container">
+      <div>
+        <label class="label" for="component-name">Choose CSV string</label>
+        <select class="select" id="csv-dropdown">
+          <option value="">Choose</option>
+          <option>Wash dishes, Laundry, Plan vacation</option>
+          <option>
+            Turn off lights, Clean bike, Call best friend, Change light bulb
+          </option>
+          <option>Dry hair, Clean kitchen</option>
+        </select>
+      </div>
+
+      <div>
+        <h2>Your tasks</h2>
+        <table class="table" border="1">
+          <thead>
+            <tr>
+              <th width="200px">Description</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>

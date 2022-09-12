@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="nav-brand">Supermini06: Name variations OOPs!</h1>
+    </nav>
+
+    <main class="container">
+      <div>
+        <label class="label" for="component-name">Enter your name</label>
+        <input
+          type="text"
+          class="input"
+          placeholder="Your name"
+          id="your-name"
+          autocomplete="off"
+        />
+      </div>
+
+      <table class="table" border="1">
+        <thead>
+          <tr>
+            <th width="200px">Variation</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Number of characters</td>
+            <td id="answer1"></td>
+          </tr>
+          <tr>
+            <td>Lower case</td>
+            <td id="answer2"></td>
+          </tr>
+          <tr>
+            <td>Upper case</td>
+            <td id="answer3"></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>

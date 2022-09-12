@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="nav-brand">Supermini08:Passport preview</h1>
+    </nav>
+
+    <main class="container">
+      <div class="names-input">
+        <div>
+          <label class="label" for="component-name"
+            >Enter your first name</label
+          >
+          <input
+            type="text"
+            class="input"
+            placeholder="Your first name"
+            id="first-name"
+            autocomplete="off"
+          />
+        </div>
+        <div>
+          <label class="label" for="component-name">Enter your last name</label>
+          <input
+            type="text"
+            class="input"
+            placeholder="Your last name"
+            id="last-name"
+            autocomplete="off"
+          />
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table class="table" border="1">
+          <thead>
+            <tr>
+              <th width="200px"></th>
+              <th>Your data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>First name</td>
+              <td id="answer1"></td>
+            </tr>
+            <tr>
+              <td>Last name</td>
+              <td id="answer2"></td>
+            </tr>
+            <tr>
+              <td>Full Name</td>
+              <td id="answer3"></td>
+            </tr>
+            <tr>
+              <td>Initials</td>
+              <td id="answer4"></td>
+            </tr>
+            <tr>
+              <td>Valid name?</td>
+              <td id="answer5"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
